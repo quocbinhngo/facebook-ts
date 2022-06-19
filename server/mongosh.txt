@@ -1,0 +1,2 @@
+mongosh "mongodb+srv://cluster0.8u10e.mongodb.net/test" --apiVersion 1 --username facebook-api
+DyWNI6dyCU2PlTla
