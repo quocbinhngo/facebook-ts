@@ -36,7 +36,7 @@ export default function Header(props: HeaderProps) {
   });
 
   return (
-    <header className="flex py-1 px-4 shadow-md items-center relative">
+    <header className="flex py-1 px-4 shadow-md items-center bg-white">
       {/* Header left */}
       <div className="flex gap-x-2 mr-2 xs:mr-20">
         {/* Logo */}
@@ -110,7 +110,7 @@ export default function Header(props: HeaderProps) {
       </div>
 
       {/* Menu */}
-      <div className="absolute top-16 right-4">
+      <div className="absolute top-16 right-4 z-50">
         {showMenu && <Menu />}
         {showUserMenu && <UserMenu />}
       </div>
